@@ -1,0 +1,391 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap'); */
+/* font-family: 'Playfair Display', serif; */
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&family=Playfair+Display&display=swap');
+/* font-family: 'Playfair Display', serif; */
+/* font-family: 'PT Sans Narrow', sans-serif; */
+*{
+    padding: 0;
+    margin: 0;
+}
+/*  */
+
+
+
+
+/*  */
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    color: rgb(5, 174, 180);
+    align-items: center;
+    font-family: var(--font1) ;
+    margin: 23px 125px 10px 125px;
+}
+.logo{
+    color: #077f88;
+    font-weight: bold;
+    padding: 10px;
+}
+.nav-left{
+    display: flex;
+    margin: 0 15px;
+    font-size: 20px;
+
+}
+.nav-left ul{
+    display:flex;
+    align-items: center;
+    margin: 0 77px;
+    font-size: 15px;
+    
+}
+.nav-left ul li{
+    list-style: none;
+    margin: 0 15px;
+    font-family: var(--font1);
+    cursor: pointer;
+
+
+}
+
+.nav-left ul li a{
+    text-decoration: none;
+    /* color: rgb(175, 106, 3); */
+    color: #077f88;
+    font-weight: bold;
+}
+
+
+.nav-left ul li a:hover{
+    color: var(--main-bg-color);
+    font-weight: bold;
+    /* transition: all 0.3s ease-in-out; */
+
+}
+.nav ul li{
+    text-decoration: none;
+}
+
+.content{
+    height: 100%;
+    /* height: 450px; */
+     background-color: rgba(249, 248, 247, 0.878);
+    border: 1px solid rgb(243, 192, 192) ;
+    display: flex;
+    margin-top: 35px;
+    position: relative;
+    padding-right: 25px;
+    margin-bottom: 35px;
+}
+.content::after{
+    content: "";
+    background-image: url("../image/astronbottle.jpg");
+    position: absolute;
+    width: 100%;
+    height: inherit;
+    opacity: 0.1;
+}
+
+.content-left{
+    font-family: var(--font1);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 25px;
+    z-index: 1;
+
+}
+.content-left p{
+    font-size: 12px;
+    padding-top: 20px;
+    /* color: rgb(175, 106, 3); */
+    color: rgb(116, 116, 115);
+    font-family: var(--font2);
+}
+.content-left h2{
+    /* color: rgb(175, 106, 3); */
+    color: var(--main-bg-color);
+}
+.content-right{
+    /* width: 50%; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin-bottom: 15px; */
+}
+.content-right img{
+    height: 300px;
+    border: 2px solid rgb(51, 44, 33);
+    border-radius: 200px;
+
+}
+
+/* ḍropdown */
+
+/* dropdown */
+
+
+.home-articles{
+     background-color: rgba(249, 248, 247, 0.878);
+
+    padding: 18px;
+    margin-top: 35px;
+    border: 1px solid rgb(243, 192, 192) ;
+    position: relative;
+}
+.year-box{
+    position: absolute;
+    width: 155px;
+    height: 175px;
+    right: 40px;
+    top: 10px;
+    font-size: 15px;
+    font-family: var(--font1);
+    color: var(--main-bg-color);
+}
+.year-box div{
+    margin: 12px 0px;
+}
+.home-article{
+    display: flex;
+    font-size: 12px;
+    color: rgb(116, 116, 115);
+    padding: 25px;
+}
+
+.home-article-content{
+    align-self: center;
+    padding: 0px 10px;
+    /* padding: 0 25px; */
+    line-height: 1.6;
+}
+.home-article-content a{
+    text-decoration: none;
+    color: var(--main-bg-color);
+    font-weight: bold;
+    
+
+}
+.home-articles h2{
+    color: var(--main-bg-color);
+    margin: 0 24px;
+    font-size: 22px;
+
+}
+
+
+
+.home-article img{
+    width: 300px;
+    /* margin: 20px; */
+}
+
+.footer{
+    height: 100px;
+    /* width: auto; */
+    background-color: rgba(249, 248, 247, 0.878);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:rgb(22, 22, 21);
+    /* color: rgb(196, 190, 190); */
+    flex-direction: column;
+    font-family: var(--font1);
+    font-size:12px; 
+    font-weight: bold;
+
+
+}
+.ftr{
+    text-decoration: none;
+    color: rgb(22, 22, 21);
+    font-weight: bold;
+}
+/* social link */
+.wrapper{
+    display: inline-flex;
+    list-style: none;
+}
+.wrapper .icon {
+    position: relative;
+    /* background: #ffffff; */
+    /* background: #077f88; */
+    background: #f5f6fa;
+    color: #077f88;
+    border-radius: 50%;
+    padding: 5px;
+    margin: 5px;
+    width: 16px;
+    height: 16px;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* box-shadow: 0 10px 10px rgba(0,0,0,0.1); */
+    box-shadow: 1px 4px 2px 2px #dcdde1;
+    cursor: pointer;
+    transition: all 0.2s cubic-bezier(0.68,-0.55, 0.265, 1.55);
+
+}
+.wrapper .name{
+    position:absolute;
+    top:0;
+    font-size: 10px;
+    background: #5bcc04;
+    color: #120fce;
+    padding: 5px 8px;
+    border-radius: 5px;
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.867);
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+
+
+}
+.wrapper .name::before{
+    position: absolute;
+    content: "";
+    height: 8px;
+    width: 8px;
+    /* background: #ffffff; */
+    background: blue;
+    bottom: -3px;
+    right: 50%;
+    transform:translate(-50%) rotate(45deg);
+    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+
+}
+.wrapper .icon:hover .name{
+    top: -25px;
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+}
+.wrapper .icon:hover span, 
+.wrapper .icon:hover .name{
+    text-shadow: 0px -1px 0px rgba(0,0,0,0.1);
+
+}
+.wrapper.facebook:hover,
+.wrapper.facebook:hover .name,
+.wrapper .facebook:hover .name::before{
+    background: #1877f2  ;
+    color: #ffffff;
+}
+.wrapper .instagram:hover .name::before{
+    background: #ffa724;
+    color: #f7f0f0e8;
+
+}
+.wrapper.instagram:hover,
+.wrapper.instagram:hover .name{
+    background: #d6249f;
+    background: radial-gradient(circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%
+    #285aeb 90%);
+}
+.wrapper .youtube:hover,
+.wrapper.youtube:hover .name,
+.wrapper .youtube:hover .name::before{
+    background: #e03030;
+    color: #ffffff;
+}
+
+.wrapper .facebook:hover:hover,
+.wrapper.facebook:hover:hover .name,
+.wrapper .facebook:hover:hover .name::before{
+    background: #1877f2;
+    color: #ffffff;
+
+}
+.wrapper .instagram:hover:hover:hover,
+.wrapper.instagram:hover:hover:hover .name,
+.wrapper .instagram:hover:hover:hover .name::before{
+    background: #eb7e19;
+    color: #ffffff;
+}
+
+.wrapper .linkedin:hover:hover:hover,
+.wrapper.linkedin:hover:hover:hover .name,
+.wrapper .instagram:hover:hover:hover .name::before{
+    background: #164ad9;
+    color: #ffffff;
+}
+.wrapper .whatsapp:hover:hover:hover,
+.wrapper.whatsapp:hover:hover:hover .name,
+.wrapper .whatsapp:hover:hover:hover:hover:hover:hover .name::before{
+    background: #07b92d;
+    color: #ffffff;
+}
+.blue{
+    color:#023e43 ;
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: 10px;
+    padding: 10px;
+}
+/* book appointment */
+.icon-bar{
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    z-index: 10;
+}
+.icon-bar a{
+    text-decoration: none;
+    width: 210px;
+    background: #077f88; 
+    /* background: rgb(34, 193, 16); */
+    /* background: rgb(182, 3, 3); */
+    color: #ffffff;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 5px;
+    font-size: 15px;
+    font-family: sans-serif;
+    transform: translateX(-170px);
+     -webkit-transform: translateX(-170px);
+    -ms-transform: translateX(-170px);
+    transition: all 0.5s linear;
+    -webkit-transition:all 0.5s linear;
+    -ms-transition:all 0.5s linear;
+    margin: 2px;
+
+   
+
+}
+/* .whatsapp{
+    background: #07b92d;
+}
+.phone{
+    background: rgb(184, 6, 6);
+} */
+
+
+.icon-bar a i{
+    padding-left: 30px;
+    font-size: 30px !important;
+    animation: letszoom 3s linear alternate-reverse infinite;
+}
+.icon-bar  :hover{
+transform: translateX(0);
+ -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
+     background: rgb(176, 5, 5);
+}
+
+@keyframes letszoom{
+    from{
+        transform: scale(0.8);
+    }
+    to{
+        transform: scale(1);
+    }
+}

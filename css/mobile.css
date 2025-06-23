@@ -1,0 +1,146 @@
+@media  screen and (max-width:1200px) {
+    .navigation{
+        flex-direction: column;
+        margin-bottom: 25px;
+    }
+    .nav-left{
+        /* display: flex; */
+        flex-direction: column;
+        text-align: center;
+
+    }
+
+    .content-right{
+        display: none;
+    }
+    
+    
+    .content{
+        text-align: center;
+    }
+    .home-article{
+        flex-direction: column;
+    }
+    .home-article img{
+        text-align: center;
+         /* width: 100px; */
+    }
+    .year-box{
+        top: 25px;
+        left: 58vw;
+        font-size: 11px;
+        display: flex;
+        margin-bottom: 15px;
+    }
+    .year-box div{
+        padding: 0 3px;
+    }
+    .home-article img{
+        width: 70vw;
+    }
+    .btn{
+    padding: 6px 23px;
+    font-size: 8px;
+
+
+    }
+    .form-input{
+        width: 50%;
+    padding: 5px 3px;
+    font-size: 8px;
+
+
+    }
+    .form-box input, textarea{
+        width: 65vw;
+    }
+    .row{
+        flex-direction: column;
+    }
+    .social{
+        padding: 0;
+    }
+    .post-img{
+        height: auto;
+    }
+    .home-article-content{
+        padding: 0px;
+    }
+    .adjust-year{
+        position: static;
+        height: auto;
+    padding: 12px 0px;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    }
+    .home-article{
+        padding: 5px;
+        margin: 5px;
+    }
+    .home-article-content{
+        padding: 0px 15px;
+    }
+}
+/* book appointment */
+.icon-bar{
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    z-index: 10;
+}
+.icon-bar a{
+    text-decoration: none;
+    width: 155px;
+    background: #077f88; 
+    /* background: rgb(34, 193, 16); */
+    /* background: rgb(182, 3, 3); */
+    color: #ffffff;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 5px;
+    font-size: 10px;
+    font-family: sans-serif;
+    transform: translateX(-110px);
+     -webkit-transform: translateX(-110px);
+    -ms-transform: translateX(-110px);
+    transition: all 0.5s linear;
+    -webkit-transition:all 0.5s linear;
+    -ms-transition:all 0.5s linear;
+    margin: 2px;
+
+   
+
+}
+/* .whatsapp{
+    background: #07b92d;
+}
+.phone{
+    background: rgb(184, 6, 6);
+} */
+
+
+.icon-bar a i{
+    padding-left: 30px;
+    font-size: 30px !important;
+    animation: letszoom 3s linear alternate-reverse infinite;
+}
+.icon-bar  :hover{
+transform: translateX(0);
+ -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
+     background: rgb(176, 5, 5);
+}
+
+@keyframes letszoom{
+    from{
+        transform: scale(0.8);
+    }
+    to{
+        transform: scale(1);
+    }
+}
+
