@@ -17,24 +17,18 @@
 
 }
 .blog-post-content p{
-    color:rgb(116, 116, 115);
     font-size: 15px;
     margin: 15px;
     line-height: 1.4;
-    /* justify-content: center; */
     text-align: justify;
-     font-size: 12px;
-    font-family: var(--font1);
+     color:black;
+    font-family: var(--font2);
 }
 .content2{
-    /* height: 450px; */
     width: 100vw;
     background-color: rgba(249, 248, 247, 0.878);
-
     border: 1px solid rgb(243, 192, 192) ;
-    /* display: flex; */
     margin-top: 35px;
-    /* position: relative; */
     padding-right: 25px;
     margin-bottom: 35px;
 }
