@@ -112,9 +112,7 @@
 .icon-bar a{
     text-decoration: none;
     width: 155px;
-    background: #077f88; 
-    /* background: rgb(34, 193, 16); */
-    /* background: rgb(182, 3, 3); */
+      background: rgb(193, 53, 132);
     color: #ffffff;
     display: flex;
     justify-content: flex-end;
@@ -151,7 +149,8 @@
 transform: translateX(0);
  -webkit-transform: translateX(0);
     -ms-transform: translateX(0);
-     background: rgb(176, 5, 5);
+/*      background: rgb(176, 5, 5); */
+     background: rgb(20, 222, 64);
 }
 
 @keyframes letszoom{
