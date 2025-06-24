@@ -90,6 +90,15 @@
         font-size: 13px;
         color: black;
     }
+   
+    .blog-post-content p{
+    color:black;
+    font-size: 13px;
+    margin: 15px;
+    line-height: 1.4;
+    text-align: justify;
+    font-family: var(--font2);
+
 }
 /* book appointment */
 .icon-bar{
@@ -124,12 +133,13 @@
    
 
 }
-/* .whatsapp{
+.whatsapp{
     background: #07b92d;
 }
 .phone{
     background: rgb(184, 6, 6);
-} */
+.instagram{
+    background: rgb(225, 48, 108);
 
 
 .icon-bar a i{
