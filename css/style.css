@@ -140,7 +140,7 @@
     right: 40px;
     top: 10px;
     font-size: 15px;
-    font-family: var(--font1);
+    font-family: var(--font2);
     color: var(--main-bg-color);
 }
 .year-box div{
@@ -148,9 +148,12 @@
 }
 .home-article{
     display: flex;
-    font-size: 12px;
-    color: rgb(116, 116, 115);
+    font-size: 15px;
+/*     color: rgb(116, 116, 115); */
     padding: 25px;
+    colour:black;
+    font-family: var(--font2);
+    
 }
 
 .home-article-content{
