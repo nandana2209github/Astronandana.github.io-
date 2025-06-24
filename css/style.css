@@ -345,7 +345,8 @@
 .icon-bar a{
     text-decoration: none;
     width: 210px;
-    background: #077f88; 
+/*     background: #077f88;  */
+     background: rgb(193, 53, 132);
     /* background: rgb(34, 193, 16); */
     /* background: rgb(182, 3, 3); */
     color: #ffffff;
