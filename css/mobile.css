@@ -81,19 +81,19 @@
     .home-article-content{
         padding: 0px 15px;
         text-align: justify;
-        font-size: 16px;
+        font-size: 18px;
         color: black;
         font-family: var(--font2);
     }
      .content-left p {
         text-align: justify;
-        font-size: 16px;
+        font-size: 18px;
         color: black;
     }
    
     .blog-post-content p{
     color:black;
-    font-size: 16px;
+    font-size: 18px;
     margin: 15px;
     line-height: 1.4;
     text-align: justify;
