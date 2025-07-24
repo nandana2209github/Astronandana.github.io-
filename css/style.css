@@ -87,7 +87,7 @@
 }
 
 .content-left{
-    font-family: var(--font1);
+    font-family: var(--font2);
     display: flex;
     justify-content: center;
     flex-direction: column;
